@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  readright:
+    build: .
+    ports:
+      - 8000:3000
+    volumes:
+      - .:/api
